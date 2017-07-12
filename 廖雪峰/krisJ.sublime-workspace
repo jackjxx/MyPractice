@@ -1,0 +1,417 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pw",
+				"power\tfunction"
+			],
+			[
+				"x",
+				"x2\tstatement"
+			],
+			[
+				"s",
+				"sqrt\tfunction"
+			],
+			[
+				"for",
+				"for\tFor Loop"
+			],
+			[
+				"fact",
+				"fact_iter\tfunction"
+			],
+			[
+				"re",
+				"return\tkeyword"
+			],
+			[
+				"fa",
+				"fact_iter"
+			],
+			[
+				"if",
+				"if\tIf Condition"
+			],
+			[
+				"try",
+				"try\tTry/Except"
+			],
+			[
+				"rea",
+				"readlines\tfunction"
+			],
+			[
+				"sys",
+				"system\tfunction"
+			],
+			[
+				"pa",
+				"path\tmodule"
+			],
+			[
+				"relis",
+				"relistfile\tstatement"
+			],
+			[
+				"ma",
+				"matchfile\tparam"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/Python.sublime-build",
+					""
+				]
+			],
+			[
+				"Anaconda Python Builder",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				"Syntax Check"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/untitled.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				"Syntax Check"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 287.0,
+		"last_filter": "remo",
+		"selected_items":
+		[
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"p",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pacage",
+				"Package Control: Remove Package"
+			],
+			[
+				"",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Volumes/Backup/MyPractice/廖雪峰"
+	],
+	"file_history":
+	[
+		"/Volumes/Backup/MyPractice/廖雪峰/parameters.py",
+		"/Volumes/Backup/MyPractice/廖雪峰/learning.py",
+		"/Volumes/Backup/MyPractice/廖雪峰/mathTest.py",
+		"/Volumes/Backup/MyPractice/廖雪峰/List Comprehensions.py",
+		"/Volumes/Backup/Study/廖雪峰/List Comprehensions.py",
+		"/Volumes/Backup/Study/廖雪峰/iteration",
+		"/vault/data_collection/test_station_config/gh_station_info.json",
+		"/Users/kris/Library/Application Support/Sublime Text 3/Packages/Anaconda/Default (OSX).sublime-keymap",
+		"/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/_abcoll.py",
+		"/Volumes/Backup/Study/Pythoy_learning/pan.py",
+		"/Volumes/Backup/Study/廖雪峰/MathTest.py",
+		"/Users/kris/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/README.md",
+		"/Users/kris/Library/Application Support/Sublime Text 3/Packages/OmniMarkupPreviewer/Default (OSX).sublime-keymap",
+		"/Users/kris/Documents/Work/gitserver/alpha_training_20160601.md",
+		"/Volumes/Backup/Study/小甲鱼/wordgame1.py",
+		"/Users/kris/Library/Application Support/Sublime Text 3/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/Users/kris/Library/Application Support/Sublime Text 3/Packages/User/SublimeREPL.sublime-settings",
+		"/Users/kris/Library/Application Support/Sublime Text 3/Packages/Anaconda/README.md",
+		"/Users/kris/Library/Application Support/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/Users/kris/Library/Application Support/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/Users/kris/Library/Application Support/Sublime Text 3/Packages/SublimeTmpl/SublimeTmpl.sublime-settings",
+		"/Volumes/Backup/Study/廖雪峰/learning.py",
+		"/Volumes/Backup/Study/廖雪峰/demo1/pan.py",
+		"/Users/kris/Library/Application Support/Sublime Text 3/Packages/User/SublimeTmpl.sublime-settings",
+		"/Users/kris/Desktop/a list of all ommited commands.md",
+		"/Users/kris/Documents/Work/Transformers/04_Source/newUI/Transformers/Transformers/Options/J71S/GATEKEEPER/sequence1.plist",
+		"/Volumes/Backup/Study/learning.py",
+		"/Users/kris/Desktop/GHSetup",
+		"/Users/kris/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/Bold and Italic Markers.tmPreferences",
+		"/Volumes/Backup/core_os/python主要模块常用方法.md",
+		"/Users/kris/Library/Application Support/Sublime Text 3/Packages/User/OmniMarkupPreviewer.sublime-settings",
+		"/Users/kris/Library/Application Support/Sublime Text 3/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/Users/kris/Desktop/marvin",
+		"/usr/local/share/man/whatis",
+		"/Users/kris/Desktop/core_os/CoreOS_Tool/CleanStationLogs/Interactive.py",
+		"/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py",
+		"/Users/kris/Desktop/untitled folder/log_to_xls",
+		"/Users/kris/Desktop/MassSender.py",
+		"/Users/kris/Desktop/iplist",
+		"/Users/kris/Desktop/readlist.py",
+		"/Users/kris/Desktop/core_os/python主要模块常用方法.md",
+		"/Users/kris/Desktop/Exc.bat",
+		"/Users/kris/Desktop/test.command",
+		"/Users/kris/Desktop/1.bat",
+		"/Users/kris/Desktop/Clean.pyc",
+		"/Users/kris/Desktop/Clean.py",
+		"/Users/kris/Desktop/log_to_xls",
+		"/Users/kris/Documents/Work/Transformers/04_Source/newUI/Transformers/Transformers/Options/J71S/CONNECTIVITY-TEST/sequence1.plist",
+		"/Users/kris/Desktop/DiagsCommand.txt",
+		"/Users/kris/Desktop/sequence2.plist",
+		"/Users/kris/Documents/Work/Transformers/04_Source/newUI/Transformers/Transformers/Options/J71S/AE-10/sequence2.plist",
+		"/Volumes/Backup/core_os/catchPoint/CatchPoint.py",
+		"/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py",
+		"/Users/kris/Library/Application Support/Sublime Text 3/Packages/User/Python.sublime-build",
+		"/Users/kris/Desktop/test.py",
+		"/Users/kris/Desktop/1111",
+		"/Users/kris/Library/Application Support/Sublime Text 3/Packages/User/untitled.sublime-build",
+		"/Users/kris/Desktop/抓MM/crawl_taoMM.py",
+		"/Users/kris/Desktop/mac.sh",
+		"/Users/kris/Library/Application Support/Sublime Text 3/Packages/SublimeTmpl/Default (OSX).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"(?<=<string>).*?(?=</string>\\s+.*?\\s+<string>DEVICE)",
+			"(?<=<string>).*?</string>\\s+.*?\\s+<string>DEVICE",
+			"(?<=<string>).*?(?=</string>\\s+<key>TARGET</key>\\s+<string>DEVICE</string>)",
+			"(?<=<string>).*?/string>\\s+<key>TARGET</key>\\s+<string>DEVICE</string>",
+			"(?<=<string>).*?/string>\\s+.*?",
+			"(?<=<string>).*?/string>\\s+",
+			"(?<=<string>).*?/string>",
+			"(?<=<string>).*?",
+			"matt",
+			"matt b",
+			"pkey",
+			"(?<=<string>).*?(?=</string>\\s+.*?\\s+<string>DEVICE)",
+			"(.*)",
+			"(.*)(?=.*\\n\\key)",
+			"(.*)(?=.*\\n\\1)",
+			"<key>SEND_COMMAND:</key>\\s",
+			"<key>SEND_COMMAND:</key> ",
+			"<key>SEND_COMMAND:</key>\\s",
+			"<key>SEND_COMMAND:</key>",
+			"<key>SEND_COMMAND:</key>\\s*<dict>",
+			"(?<=<key>SEND_COMMAND:</key>\\s*<dict>",
+			"(?<=<key>SEND_COMMAND:</key>\\s<dict>",
+			"(?<=<key>SEND_COMMAND:</key>\\s<dict>\n",
+			"(?<=<key>SEND_COMMAND:</key>\\s<dict>\n\t\t\t\t<key>STRING</key>\n\t\t\t\t<string>)",
+			"(?<=<key>SEND_COMMAND:</key>\n\t\t\t<dict>\n\t\t\t\t<key>STRING</key>\n\t\t\t\t<string>).*?(</string>)",
+			"re.S",
+			"group",
+			"python"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 160.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+	"project": "krisJ.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/Volumes/Backup/core_os/python主要模块常用方法.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Desktop/抓MM/crawl_test.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 155.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
