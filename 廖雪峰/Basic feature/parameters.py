@@ -48,14 +48,22 @@ def calc1(numbers):  # 未使用可变参数
 # print ('sum1 = %d' % calc1([1, 2, 3]))
 
 
-def calc2(*numbers):  # 使用可变参数
+def calc2(*numbers):  # 使用可变参数,numbers 接受的是一个tuple
     sum = 0
     for n in numbers:
         sum += n * n
     return sum
 
 
-print ('sum2 = %d' % calc2(1, 2, 3))
+# print ('sum2 = %d' % calc2(1, 2, 3))
+
+
+def person1(name, age, **kw):  # name age 必选参数，kw关键字参数；关键字参数扩展函数更多功能
+    print('name:', name, 'age:', age, 'other:', kw)  # kw接受的是一个dict
+
+
+def person2(name, age, *, city, job):  # *后面的参数被视为命名关键字参数
+    print(name, age, city, job)
 
 
 

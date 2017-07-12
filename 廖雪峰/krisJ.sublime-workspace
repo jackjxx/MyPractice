@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"fac",
+				"fact_iter"
+			],
+			[
+				"cal",
+				"calc2\tfunction"
+			],
+			[
 				"pw",
 				"power\tfunction"
 			],
@@ -63,6 +71,15 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "iterator.py",
+			"settings":
+			{
+				"buffer_size": 1217,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -189,11 +206,13 @@
 	},
 	"expanded_folders":
 	[
-		"/Volumes/Backup/MyPractice/廖雪峰"
+		"/Volumes/Backup/MyPractice/廖雪峰/Basic feature"
 	],
 	"file_history":
 	[
 		"/Volumes/Backup/MyPractice/廖雪峰/parameters.py",
+		"/Users/kris/Library/Application Support/Sublime Text 3/Packages/User/Python.sublime-settings",
+		"/Users/kris/Library/Application Support/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
 		"/Volumes/Backup/MyPractice/廖雪峰/learning.py",
 		"/Volumes/Backup/MyPractice/廖雪峰/mathTest.py",
 		"/Volumes/Backup/MyPractice/廖雪峰/List Comprehensions.py",
@@ -212,7 +231,6 @@
 		"/Users/kris/Library/Application Support/Sublime Text 3/Packages/User/SublimeREPL.sublime-settings",
 		"/Users/kris/Library/Application Support/Sublime Text 3/Packages/Anaconda/README.md",
 		"/Users/kris/Library/Application Support/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
-		"/Users/kris/Library/Application Support/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
 		"/Users/kris/Library/Application Support/Sublime Text 3/Packages/SublimeTmpl/SublimeTmpl.sublime-settings",
 		"/Volumes/Backup/Study/廖雪峰/learning.py",
 		"/Volumes/Backup/Study/廖雪峰/demo1/pan.py",
@@ -256,7 +274,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -315,8 +333,48 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "iterator.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1217,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								841,
+								841
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 437.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

@@ -37,3 +37,14 @@ print(x, y)
 
 print(quadratic(2, 3, 1))  # => (-0.5, -1.0)
 print(quadratic(1, 3, -4))  # => (1.0, -4.0)
+
+
+def fab(max):
+    a, b = 0, 1
+    while a < max:
+        yield a
+        a, b = b, a + b
+
+
+for i in fab(20):
+    print i, ",",
