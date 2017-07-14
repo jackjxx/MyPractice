@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"i",
+				"i\tforstmt"
+			],
+			[
 				"fac",
 				"fact_iter"
 			],
@@ -71,15 +75,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "iterator.py",
-			"settings":
-			{
-				"buffer_size": 1217,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -206,10 +201,17 @@
 	},
 	"expanded_folders":
 	[
+		"/Volumes/Backup/MyPractice/廖雪峰",
+		"/Volumes/Backup/MyPractice/廖雪峰/Advanced features",
 		"/Volumes/Backup/MyPractice/廖雪峰/Basic feature"
 	],
 	"file_history":
 	[
+		"/Volumes/Backup/MyPractice/廖雪峰/Advanced features/do_iter.py",
+		"/Volumes/Backup/MyPractice/廖雪峰/Advanced features/List Comprehensions.py",
+		"/Volumes/Backup/MyPractice/廖雪峰/Basic feature/mathTest.py",
+		"/Volumes/Backup/MyPractice/廖雪峰/Advanced features/do_slice.py",
+		"/Volumes/Backup/MyPractice/廖雪峰/iterator.py",
 		"/Volumes/Backup/MyPractice/廖雪峰/parameters.py",
 		"/Users/kris/Library/Application Support/Sublime Text 3/Packages/User/Python.sublime-settings",
 		"/Users/kris/Library/Application Support/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
@@ -288,6 +290,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"itertool",
+			"itertools",
 			"(?<=<string>).*?(?=</string>\\s+.*?\\s+<string>DEVICE)",
 			"(?<=<string>).*?</string>\\s+.*?\\s+<string>DEVICE",
 			"(?<=<string>).*?(?=</string>\\s+<key>TARGET</key>\\s+<string>DEVICE</string>)",
@@ -333,48 +337,13 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "iterator.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1217,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								841,
-								841
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": ".",
-									"selector": "source.python - string - comment - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								}
-							],
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 437.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
@@ -395,11 +364,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -459,7 +435,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},

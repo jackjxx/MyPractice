@@ -3,13 +3,36 @@
 # @Date    : 2017-07-12 16:19:10
 # @Author  : kris_jiang (kris_jiang@compal.com)
 # @Version : $Id$
+'''
+迭代器（Iterables）任何可以用 for in 来迭代读取的都是迭代容器，
+例如lists,strings,files.这些迭代器非常的便利，因为你可以想取多少
+便取多少，但是你得存储所有的值，其中很多值都完全没有必要每次都保持在内存中
+>>> mylist = [x*x for x in range(3)]
+>>> for i in mylist:
+...    print(i)
+0
+1
+4
 
+
+生成器（Generators） 也是可迭代的，但是你每次只能迭代它们一次，因为不是所
+有的迭代器都被一直存储在内存中的，他们临时产生这些值
+生成器几乎和迭代器是相同的，除了符号[]变为()
+>>> mygenerator = (x*x for x in range(3))
+>>> for i in mygenerator:
+...    print(i)
+0
+1
+4
+'''
 from collections import Iterable, Iterator
 
-def g():
+
+def g():  # yield 返回的是生成器
     yield 1
     yield 2
     yield 3
+
 
 print('Iterable? [1, 2, 3]:', isinstance([1, 2, 3], Iterable))
 print('Iterable? \'abc\':', isinstance('abc', Iterable))
