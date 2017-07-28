@@ -1,0 +1,32 @@
+6/29/17, 12:03 AM Ilya Toytman:
+Reason for clone:
+Clone to implement for J71b
+
+<original text - begin>
+
+9/6/16, 3:49 PM Chris Balcells:
+Summary:
+Request to add Magnesium CRC test at IQC, IPAD-1 and QT1 so we can screen for OTP retention failures. See attached source code.
+
+Steps to Reproduce:
+1. Read register 0x7B and 0x7C to check if CRC codes are programmed:
+     If 0x7B == 0x0000 or 0xFFFF, then CRC codes are not programmed, no need for CRC
+     If 0x7C == 0x0000 or 0xFFFF, then CRC codes are not programmed, no need for CRC
+     Otherwise proceed to step 3 to continue CRC check
+2. Generate CRC code for register 0x40 
+     a. Please refer to attached sample code written in python
+     b. Function input "crc" is the initial CRC value which is 0xFFFF
+     c. Function input "byte" is the current register value
+3. Repeat step 3 on registers 0x41 ~ 0x7A, 0x7D ~ 0x7F
+     a. Please refer to attached sample code written in python
+     b. Function input "crc" is the CRC code generated from the previous register value
+     c. Function input "byte" is the current register value
+4. Final CRC code should be 2-bytes long:
+     a. High byte of CRC code (bit 15 ~ bit 8) should be compared with register 0x7B
+     b. Second byte of CRC code (bit 15 ~ bit 8) should be compared with register 0x7C
+     c. If both values match with the programmed codes then return "PASS", otherwise return “FAIL”
+
+
+</original text - end>
+
+6/29/17, 12:03 AM Cloned from problemID rdar://problem/28179570 by Ilya Toytman.

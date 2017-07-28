@@ -80,30 +80,32 @@
 	"buffers":
 	[
 		{
-			"file": "Functional Programming/Higher-order_function.py",
+			"file": "Advanced features/prime_numbers.py",
 			"settings":
 			{
-				"buffer_size": 1789,
+				"buffer_size": 583,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "Basic feature/iterator.py",
+			"file": "Advanced features/do_sorted.py",
 			"settings":
 			{
-				"buffer_size": 1217,
+				"buffer_size": 505,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "Basic feature/parameters.py",
+			"contents": "['Credit', 'Zoo', 'about', 'bob']\n['about', 'bob', 'Credit', 'Zoo']\n[('Adam', 92), ('Bart', 66), ('Bob', 75), ('Lisa', 88)]\n[('Bart', 66), ('Bob', 75), ('Lisa', 88), ('Adam', 92)]\n[('Adam', 92), ('Lisa', 88), ('Bob', 75), ('Bart', 66)]\n\n***Repl Closed***\n",
 			"settings":
 			{
-				"buffer_size": 1191,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"buffer_size": 255,
+				"line_ending": "Unix",
+				"name": "*REPL* [python]",
+				"read_only": true,
+				"scratch": true
 			}
 		}
 	],
@@ -233,12 +235,14 @@
 	"expanded_folders":
 	[
 		"/Volumes/Backup/MyPractice/廖雪峰",
-		"/Volumes/Backup/MyPractice/廖雪峰/Advanced features",
 		"/Volumes/Backup/MyPractice/廖雪峰/Basic feature",
 		"/Volumes/Backup/MyPractice/廖雪峰/Functional Programming"
 	],
 	"file_history":
 	[
+		"/Volumes/Backup/MyPractice/廖雪峰/Basic feature/iterator.py",
+		"/Volumes/Backup/MyPractice/廖雪峰/Functional Programming/Higher-order_function.py",
+		"/Volumes/Backup/MyPractice/do_filter.py",
 		"/Users/kris/Library/Application Support/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
 		"/Users/kris/Library/Application Support/Sublime Text 3/Packages/Anaconda/README.md",
 		"/Users/kris/Library/Application Support/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
@@ -374,45 +378,34 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "Functional Programming/Higher-order_function.py",
+					"file": "Advanced features/prime_numbers.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1789,
+						"buffer_size": 583,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								838,
-								840
+								262,
+								262
 							]
 						],
 						"settings":
 						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": ".",
-									"selector": "source.python - string - comment - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								}
-							],
 							"syntax": "Packages/Python/Python.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 527.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -420,62 +413,95 @@
 				},
 				{
 					"buffer": 1,
-					"file": "Basic feature/iterator.py",
+					"file": "Advanced features/do_sorted.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1217,
+						"buffer_size": 505,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								505,
+								505
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "Basic feature/parameters.py",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1191,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 255,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								255,
+								255
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"auto_indent": false,
+							"detect_indentation": false,
+							"gutter": false,
+							"history_arrows": true,
+							"indent_subsequent_lines": false,
+							"line_numbers": false,
+							"repl": true,
+							"repl_external_id": "python",
+							"repl_id": "8ea3e0a867594b9b8d9b402c9f5e5357",
+							"repl_restart_args":
+							{
+								"cmd":
+								[
+									"python",
+									"-u",
+									"$file_basename"
+								],
+								"cwd": "$file_path",
+								"encoding": "utf8",
+								"extend_env":
+								{
+									"PYTHONIOENCODING": "utf-8"
+								},
+								"external_id": "python",
+								"syntax": "Packages/Python/Python.tmLanguage",
+								"type": "subprocess"
+							},
+							"repl_sublime2": false,
+							"smart_indent": false,
+							"spell_check": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -498,11 +524,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
